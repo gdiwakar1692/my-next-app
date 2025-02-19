@@ -1,0 +1,5 @@
+[build]
+  app = "/home/site/wwwroot"
+  runtime = "nodejs"
+  version = "20.x"
+  build_command = "npm install && npm run build"
