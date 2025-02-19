@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "node_modules/next/dist/bin/next start",
+    "test": "jest"
     "lint": "next lint"
   },
   "dependencies": {
