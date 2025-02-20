@@ -61,4 +61,4 @@ jobs:
           app-name: 'gd-first-nextjs-app'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_12491FB587FD4B7F9F5C7A734A28C067 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_558410FBADAF42FB8FD3496389EC2891 }}
